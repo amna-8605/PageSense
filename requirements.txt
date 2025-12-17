@@ -1,9 +1,43 @@
-streamlit
-langchain-community
-langchain-huggingface
-langchain-google-genai
-python-dotenv
-pypdf
-docx2txt
-faiss-cpu
-youtube-transcript-api
+# Core LangChain
+langchain>=0.1.0
+langchain-core>=1.2.2
+langchain-community>=0.4.1
+langchain-text-splitters>=1.1.0
+langchain-huggingface>=1.2.0
+langchain-google-genai>=4.1.1
+
+# LLMs & Embeddings
+huggingface-hub>=0.36.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+
+# Vectorstore
+faiss-cpu>=1.13.1
+numpy>=2.3.5
+
+# Google Gemini / ChatGoogleGenerativeAI
+google-genai>=1.55.0
+google-auth>=2.45.0
+
+# Document loaders
+pypdf>=6.4.2
+docx2txt>=0.9
+python-docx>=0.9.0
+youtube-transcript-api>=1.2.3
+
+# Streamlit & UI
+streamlit>=1.52.1
+rich>=14.2.0
+markdown-it-py>=4.0.0
+mdurl>=0.1.2
+pillow>=12.0.0
+
+# Utilities
+python-dotenv>=1.2.1
+requests>=2.32.5
+pandas>=2.3.3
+tqdm>=4.67.1
+
+# Optional dependencies
+protobuf>=6.33.2
+pyyaml>=6.0.3
